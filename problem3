@@ -1,0 +1,10 @@
+<php
+function aVeryBigSum($ar) {
+    $sum=0; 
+    for ($i=0; $i < count($ar); $i++) {
+        $sum += $ar[$i];
+    }
+    return $sum;
+
+}
+?>
